@@ -11,7 +11,7 @@ Na początek należy zamienić adresy produkcyjne z adresami testowymi.
     protected $loginTestUrl = 'https://wyszukiwarkaregontest.stat.gov.pl/wsBIR/UslugaBIRzewnPubl.svc/ajaxEndpoint/Zaloguj';
     protected $searchDataTestUrl = 'https://wyszukiwarkaregontest.stat.gov.pl/wsBIR/UslugaBIRzewnPubl.svc/ajaxEndpoint/daneSzukaj';
 ```
-Kolejnym krokiem jest zmienienie klucza dostępu do GUS na prawidłowy uzyskany z GUS.
+Kolejnym krokiem jest zmiana klucza dostępu do GUS na prawidłowy uzyskany z GUS (domyślny klucz pozwala uzyskać dostęp tylko do adresów testowych!).
 ```php
 protected $key = "abcde12345abcde12345";
 ```
